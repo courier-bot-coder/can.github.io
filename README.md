@@ -8,3 +8,7 @@ Using Terraform to deploy a kubernetes cluster on azure
    This is a repo that breaks down the process of creating a kubernetes cluster on azure.
    
 Using helm to deploy an application on a kubernetes cluster
+
+Now that we have a kubernetes cluster up we can deploy an application using Helm. you can clone a repo for this using the git clone command again: git clone https://github.com/courier-bot-coder/fleet-web-app.git
+
+This will break down how to get the application running on our aks cluster
