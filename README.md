@@ -9,7 +9,7 @@ This is a blog of all the different processes and procedures that I have learned
    
 # Using helm to deploy an application on a kubernetes cluster
 
-Now that we have a kubernetes cluster up we can deploy an application using Helm. I have another GitHub repo that breaks this down [here.](git clone https://github.com/courier-bot-coder/fleet-web-app.git)
+Now that we have a kubernetes cluster up we can deploy an application using Helm. I have another GitHub repo that breaks this down [here.](https://github.com/courier-bot-coder/fleet-web-app.git)
 
 This will break down how to get the application running on our aks cluster
 
