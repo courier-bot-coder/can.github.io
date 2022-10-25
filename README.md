@@ -3,7 +3,7 @@ This is a blog of all the different processes and procedures that I have learned
 
 [Creating a kubernetes cluster on Azure using terraform](https://courier-bot-coder.github.io/can.github.io/azure-terraform)
    
-[Using Helm to deploy an application to a kubernetes cluster](https://courier-bot-coder.github.io/can.github.io/helm-fleet-app)
+[Using Helm to deploy an application to a kubernetes cluster](https://courier-bot-coder.github.io/can.github.io/fleet-helm)
 
 [Deploying a kafka cluster on kubernetes using Strimzi](https://courier-bot-coder.github.io/can.github.io/strimzi-kafka)
 
