@@ -1,6 +1,9 @@
+<!--
 layout: page
 title: "Vagrant"
 permalink: /(https://courier-bot-coder.github.io/can.github.io/vagrant)
+-->
+
 
 # Creating 3 virtual machines that will have kubernetes installed and all connect together for a cluster using Vagrant
 
