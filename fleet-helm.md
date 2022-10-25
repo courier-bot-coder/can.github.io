@@ -1,6 +1,6 @@
 layout: page
 title: "Using Helm to deploy an application to a kubernetes cluster"
-permalink: /https://courier-bot-coder.github.io/can.github.io/helm-fleet-app
+permalink: /https://courier-bot-coder.github.io/can.github.io/fleet-helm
 
 # Using helm to deploy an application on a kubernetes cluster
 
