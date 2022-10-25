@@ -1,6 +1,8 @@
+<!--
 layout: page
 title: "creating a kafka cluster on kubernetes using Strimzi"
 permalink: /https://courier-bot-coder.github.io/can.github.io/strimzi-kafka
+-->
 
 # Deplying a Apache Kafka cluster on kubernetes using Strimzi:
 
