@@ -1,6 +1,8 @@
+<!--
 layout: page
 title: "Deploying a kubernetes cluster on Azure using Terraform"
 permalink: /https://courier-bot-coder.github.io/can.github.io/azure-terraform
+-->
 
 # Using Terraform to deploy a kubernetes cluster on azure
    
