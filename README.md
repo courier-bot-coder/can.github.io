@@ -49,4 +49,5 @@ Here we will see all of the messages that you type in the producers terminal.
 
 This shows the bare bone ideas with kafka which allows the collection of information or content triggered by events.
 
+[Creating 3 Vagrant vms](https://courier-bot-coder.github.io/can.github.io/vagrant)
 
