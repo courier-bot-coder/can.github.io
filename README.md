@@ -8,6 +8,8 @@ Within each link are the proccesses that I have been developing and practicing f
    
 [Using Helm to deploy an application to a kubernetes cluster](https://courier-bot-coder.github.io/can.github.io/fleet-helm)
 
+[Using variables with a Helm chart](https://courier-bot-coder.github.io/can.github.io/helm-varibles)
+
 [Deploying a kafka cluster on kubernetes using Strimzi](https://courier-bot-coder.github.io/can.github.io/strimzi-kafka)
 
 [Creating 3 Vagrant vms](https://courier-bot-coder.github.io/can.github.io/vagrant)
