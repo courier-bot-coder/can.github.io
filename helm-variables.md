@@ -1,6 +1,6 @@
 <!--
 layout: page
-title: "Deploying a kubernetes cluster on Azure using Terraform"
+title: "Using Variables for Helm Charts"
 permalink: /https://courier-bot-coder.github.io/can.github.io/helm-variables
 -->
 
