@@ -1,9 +1,10 @@
+<!--
 layout: page
 title: "Deploying a kubernetes cluster on Azure using Terraform"
 permalink: /https://courier-bot-coder.github.io/can.github.io/helm-varibles
 -->
 
-# Using variables in a helm chart
+# Using variables for Helm
 
 This will be a demo on how to use variables to set up templates for helm charts so that you can change them easily for specific scenarios. In this example we will be using the fleetwood application that we have deployend earlier.
 
