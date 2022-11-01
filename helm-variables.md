@@ -53,7 +53,7 @@ spec:
   selector:
     matchLabels:
       app: {{ .Values.positionSimulator.name }}
-  replicas: 2
+  replicas: {{ .Values.positionSimulator.replicas }}
   template:
     metadata:
       namespace: default
@@ -75,6 +75,7 @@ replicaCount: 1
 positionSimulator:
    name: position-simulator
    namespace: default
+   replicas: 2
    container: 
     image: richardchesterwood/k8s-fleetman-position-simulator:release2
 ```
