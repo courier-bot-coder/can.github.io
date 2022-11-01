@@ -12,8 +12,36 @@ This content will also be found on my [github](https://github.com/courier-bot-co
 
 For starters we can talk about how variables work with helm charts. When you create a Helm chart you will have the template folder and the values file. The template folder will hold all of the yaml files for your deployments and the values file will hold variables for those templates. within the templates you can have a path to the values file and have a basic template of a deployment and change the value in the values file for specific instances.
 
-for example if you clone the GitHub repo you will find the fleetman application but all of the yaml files are set up for variables. so our position simulator will look like this: 
+So for starters lets look at the original yaml file for one of the deployments on the fleet app.
 
+```
+
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: position-simulator
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: position-simulator
+  replicas: 2
+  template:
+    metadata:
+      namespace: default
+      labels:
+        app: position-simulator
+    spec:
+      containers:
+      - name: position-simulator
+        image: richardchesterwood/k8s-fleetman-position-simulator:release2
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: production-microservice
+```
+This is a standard layout for a deployment called position simulator, as demonstrated before we can deploy this and many other kinds of deployments or services using this layout. The only problem with this is that it is all hard coded directly into the yaml file. If we ever wanted something different or wanted to change a certain aspect of the application we would have to go down the list one by one of all the yaml files to change the application. Now this is where variables come in, by using variables we can create a list of variables inside the values.yaml file and create a path within the deployment files to find the wanted values. So if we wanted to make this yaml file with variables it would look like this:
 ```
 ---
 apiVersion: apps/v1
