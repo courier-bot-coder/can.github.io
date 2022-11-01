@@ -14,6 +14,11 @@ First we will want to get Helm installed. This can be done on windows using this
 ```
 choco install kubernetes-helm
 ```
+Now we will want to clone the repo that has the yaml files in it with this command:
+
+```
+git clone https://github.com/courier-bot-coder/fleet-web-app.git
+```
 Making sure that you are inside the fleet-app-helm directory you can use this simple command to deploy the application on your cluster: 
 ```
 helm install fleet-app fleet-app-helm
